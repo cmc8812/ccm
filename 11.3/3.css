@@ -1,0 +1,28 @@
+
+    .house{
+        border-collapse: collapse;
+        font-size: 17px;
+    }
+    .house{
+        background: fuchsia;
+        border-bottom: 4px soild #ccc;
+        color: #fff;
+    }
+    .detail, .expense, .detailcell, .expensecell{
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    .date{width: 80px;}
+    .detail{width: 250px;}
+    .income{width: 150px;}
+    .expense{width: 150px;}
+    .patment{width: 100px;}
+
+    .house tr td{
+        border-bottom: 2px solid #ddd;
+        height: 30px;
+        
+    }
+    .detailcell, .incomecell, .expensecell, .patmentcell{
+        text-align: center;
+    }
