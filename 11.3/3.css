@@ -26,3 +26,17 @@
     .detailcell, .incomecell, .expensecell, .patmentcell{
         text-align: center;
     }
+.datecell{
+    background: yellow
+    ;
+}
+.incomecell{
+    background: darkblue;
+}
+expensecell{
+    background: rebeccapurple;
+    color: #fff;
+}
+.detailcell{
+    background: peachpuff;
+}

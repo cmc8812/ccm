@@ -1,0 +1,59 @@
+body{
+    background-color: green;
+    margin: 0;
+}
+#wrap{
+    width: 1200px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+#wrap tr td{
+    border: 1px solid#000;
+    
+}
+#header{
+    border-radius: 10px;
+    height: 80px;
+    width: 100%;
+    background: #fff;
+    font-weight: 800;
+    font-size: 19px;
+}
+#slidewrap{
+    width: 50%;
+    height: 700px;
+}
+#drinkwrap{
+    width: 600px;
+    height: 350px;
+
+}
+
+.menuitam{
+    padding-left: 50px;
+}
+.slide{width: 100%;} /*부모태그인 #slidewrap의 너비와 같아진다*/
+.leftmove, .rightmove{
+    width: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #000;
+}
+
+.leftmove i:hover , .rightmove i:hover{
+cursor: pointer;
+}
+.slideimage{
+    width: 500px;
+}
+.slideimage img{width: 100%;}
+
+.drinkmenu{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#eventwrap{
+    height: 350px;
+}
